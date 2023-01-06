@@ -1,21 +1,71 @@
 *{
    margin: 0;
-   background-color: azure;
    font-family: 'Open Sans', sans-serif;
-}
 
-.text-primary{
-
-   color: #FD6E0A;
+   
 }
 
 .btn-primary{
    background-color: #FD6E0A;
-   font-weight: 700;
+   font-weight: 600;
    font-size: 20px;
    color: #FFFFFF;
    border: 0;
    padding: 8px 26px;
    border-radius: 3px;
-   margin-right: 15px;
+   /* margin-right: 15px; */
 }
+
+ /* header section styles */
+.container {
+
+   rgba(21, 20, 20, 1)
+   /* text-align: right; */
+   
+ }
+
+ .container-title1{
+   position: absolute;
+   top: 170px;
+   right: 16px;
+   font-weight: 700;
+   font-size: 65px;
+ }
+ .container-title3{
+   position:absolute;
+   right: 16px;
+   top: 235px;
+   font-weight: 700;
+   font-size: 65px;
+
+ }
+ .container-title2{
+   position:absolute;
+   right: 16px;
+   top: 298px;
+   font-weight: 700;
+   font-size: 65px;
+ }
+ .container-subtitle{
+   position: absolute;
+   top: 400px;
+   right: 16px;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 24px;
+ }
+
+ .btn-contact{
+   position: absolute;
+   top: 490px;
+   right: 16px;
+   background-color: #FD6E0A;
+   font-weight: 600;
+   font-size: 20px;
+   color: #FFFFFF;
+   border: 0;
+   padding: 8px 26px;
+   border-radius: 3px;
+   margin-top: 32px;
+ }
+
