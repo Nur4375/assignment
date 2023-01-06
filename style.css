@@ -1,6 +1,7 @@
 *{
    margin: 0;
    font-family: 'Open Sans', sans-serif;
+   /* background-color: #FFFFFF; */
 
    
 }
@@ -68,4 +69,33 @@
    border-radius: 3px;
    margin-top: 32px;
  }
+
+ /* failure section styles */
+
+ .failure-title{
+font-weight: 700;
+font-size: 40px;
+color: #151414;
+
+ }
+
+.failure-subtitle{
+   text-align: auto 90px 0px;
+   position: absolute;
+   margin-top: 22px;
+   margin-bottom: 16px;
+}
+.failure-subtitle2{
+   font-weight: 400;
+font-size: 16px;
+margin-top: 30px;
+
+}
+.failure-main{
+   
+   position: absolute;
+  top: 160%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
 
