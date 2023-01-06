@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   background-color: azure;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+
+   color: #FD6E0A;
+}
+
+.btn-primary{
+   background-color: #FD6E0A;
+   font-weight: 700;
+   font-size: 20px;
+   color: #FFFFFF;
+   border: 0;
+   padding: 8px 26px;
+   border-radius: 3px;
+   margin-right: 15px;
+}
