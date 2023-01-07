@@ -18,22 +18,27 @@
 }
 
 /* header section styles */
-.container {
+.container{
 
    rgba(21, 20, 20, 1)
+}
+
+.container-title {
+   color: red;
+   margin-right: 30px;
 }
 
 .container-title1 {
    position: absolute;
    top: 170px;
-   right: 16px;
+   right: 220px;
    font-weight: 700;
    font-size: 65px;
 }
 
 .container-title3 {
    position: absolute;
-   right: 16px;
+   right: 220px;
    top: 235px;
    font-weight: 700;
    font-size: 65px;
@@ -42,25 +47,32 @@
 
 .container-title2 {
    position: absolute;
-   right: 16px;
+   right: 220px;
    top: 298px;
    font-weight: 700;
    font-size: 65px;
 }
 
-.container-subtitle {
+/* .container-subtitle {
    position: absolute;
    top: 400px;
    right: 16px;
    font-weight: 400;
    font-size: 16px;
    margin-top: 24px;
+} */
+.container-text{
+   position: absolute;
+   right: 220px;
+   top: 410px;
+   font-weight: 400;
+   font-size: 18px;
+   text-align: right;
 }
-
 .btn-contact {
    position: absolute;
    top: 490px;
-   right: 16px;
+   right: 220px;
    background-color: #FD6E0A;
    font-weight: 600;
    font-size: 20px;
@@ -79,6 +91,7 @@
    color: #151414;
    max-width: 100%;
    max-height: 100%;
+
 }
 
 .failure-subtitle {
@@ -86,12 +99,14 @@
    position: absolute;
    margin-top: 22px;
    margin-bottom: 16px;
+   color: #444343;
 }
 
 .failure-subtitle2 {
    font-weight: 400;
    font-size: 16px;
    margin-top: 30px;
+   color: #444343;
 
 }
 
@@ -117,31 +132,33 @@
    text-decoration: none;
 }
 
-.skills {
+.myskills {
    color: #151414;
    margin-top: 50px;
    display: flex;
    text-align: center;
    justify-content: center;
    justify-content: space-evenly;
-
+   margin-right: 60px;
+   margin-left: 60px;
+   
 }
 
 .skill-title {
    font-weight: 700;
-   font-size: 30px;
+   font-size: 26px;
    text-align: center;
 }
 
 .skill-sub-title {
    font-weight: 500;
-   font-size: 25px;
+   font-size: 22px;
    text-align: center;
    color: #737272;
 }
 
 /* plan section styles */
-.myplans {
+.myplans{
 
    color: #151414;
    margin-top: 860px;
