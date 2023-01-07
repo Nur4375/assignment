@@ -185,26 +185,25 @@
    padding: 18px 32px;
    border-radius: 3px;
    margin-right: 15px;
-  
+
 }
 
 .positive-title {
    padding-right: 800px;
-   padding-top: 190px;
+   padding-top: 275px;
    color: #F15B22;
-   /* call me button  */
 
 }
 
 .positive-subtitle {
-   
+
    position: absolute;
-   bottom: -1510px;
+   bottom: -1600px;
    left: 270px;
    color: #FFFFFF;
    text-align: center;
-   
-   /* text only */
+   font-weight: 700;
+   font-size: 40px;
 }
 
 /* footer styles */
