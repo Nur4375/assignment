@@ -21,8 +21,6 @@
 .container {
 
    rgba(21, 20, 20, 1)
-
-
 }
 
 .container-title1 {
@@ -109,7 +107,7 @@
 
 .plans {
    text-align: center;
-   justify-content:space-around;
+   justify-content: space-around;
    background-color: #d12929;
 }
 
@@ -118,21 +116,24 @@
    display: flex;
    text-decoration: none;
 }
-.skills{
+
+.skills {
    color: #151414;
    margin-top: 50px;
    display: flex;
    text-align: center;
    justify-content: center;
    justify-content: space-evenly;
-   
+
 }
-.skill-title{
+
+.skill-title {
    font-weight: 700;
-font-size: 30px;
-text-align: center;
+   font-size: 30px;
+   text-align: center;
 }
-.skill-sub-title{
+
+.skill-sub-title {
    font-weight: 500;
    font-size: 25px;
    text-align: center;
@@ -140,7 +141,7 @@ text-align: center;
 }
 
 /* plan section styles */
-.myplans{
+.myplans {
 
    color: #151414;
    margin-top: 860px;
@@ -149,11 +150,47 @@ text-align: center;
    justify-content: center;
    font-weight: 700;
    font-size: 40px;
-   
+
 }
-.positive-section{
-display: flex;
-text-align: center;
-justify-content: center;
-margin-top: 125px;
+
+/* gradient section styles */
+.positive {
+   background-image: -moz-linear-gradient(10, 20);
+}
+
+.positive-section {
+   /* display: flex; */
+   text-align: center;
+   justify-content: center;
+   margin-top: 125px;
+   background-attachment: fixed;
+   background-size: cover;
+   background: linear-gradient(rgba(204, 69, 148, 0.7) rgba(216, 153, 153, 0.7)), url(images/gradient3.png);
+
+}
+
+.btn-contact2 {
+   background-color: #FFFFFF;
+   font-weight: 600;
+   font-size: 20px;
+   color: #F15B22;
+   border-radius: 6px;
+
+   border: 0;
+   padding: 20px 35px;
+   border-radius: 3px;
+   margin-right: 15px;
+}
+
+.positive-title {
+   position: absolute;
+   bottom: -1600px;
+   left: 240px;
+   color: #FFFFFF;
+}
+
+.positive-subtitle {
+   padding-bottom: 24px;
+   font-weight: 700;
+   font-size: 40px;
 }
