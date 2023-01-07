@@ -13,7 +13,7 @@
    color: #FFFFFF;
    border: 0;
    padding: 8px 26px;
-   border-radius: 3px;
+   border-radius: 4px;
    /* margin-right: 15px; */
 }
 
@@ -207,5 +207,30 @@
    /* margin-left: 130px; */
    background-color: #151414;
    color: #F8F8F8;
-   
+
+}
+
+.footer-title {
+   margin: 130px 230px;
+}
+
+.footer-text {
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.footer-subscribe {
+   font-weight: 600;
+   font-size: 25px;
+}
+
+input {
+   width: 250px;
+   height: 40px;
+   border-radius: 5px;
+   padding-left: 20px;
+   background-color: #F8F8F8;
+   font-weight: 400;
+   font-size: 18px;
+   margin-bottom: 16px;
 }
