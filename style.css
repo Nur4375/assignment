@@ -215,12 +215,10 @@
 
 .footer {
    display: flex;
-
-   height: 577px;
+   height: 500px;
    left: 0px;
    top: 2652.26px;
    margin-top: 130px;
-
    background-color: #151414;
    color: #F8F8F8;
 
