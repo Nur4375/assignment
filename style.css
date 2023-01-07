@@ -1,9 +1,6 @@
 * {
    margin: 0;
    font-family: 'Open Sans', sans-serif;
-   /* background-color: #ff0f0f; */
-
-
 }
 
 .btn-primary {
@@ -50,14 +47,6 @@
    font-size: 65px;
 }
 
-/* .container-subtitle {
-   position: absolute;
-   top: 400px;
-   right: 16px;
-   font-weight: 400;
-   font-size: 16px;
-   margin-top: 24px;
-} */
 .container-text {
    position: absolute;
    right: 220px;
@@ -81,7 +70,7 @@
    margin-top: 32px;
 }
 
-/* failure section styles */
+/* previous year failure section styles */
 
 .failure-title {
    font-weight: 700;
@@ -116,7 +105,12 @@
    transform: translate(-50%, -50%);
 }
 
-/* my plans styles */
+/* my plans and skills styles */
+.myplans{
+   font-weight: 700;
+   font-size: 40px;
+   
+}
 
 .plans {
    text-align: center;
